@@ -44,6 +44,6 @@ jobs:
             file: src/Dockerfile
             push: true 
             tags: |
-              geovanifa/aula-conversao-temperatura:v1
+              geovanifa/aula-conversao-temperatura:${{github.run_number}}
               geovanifa/aula-conversao-temperatura:latest
             
